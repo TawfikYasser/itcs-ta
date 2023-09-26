@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITCS TAs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center; /* Center align text inside the container */
+        }
+
+        h1 {
+            text-align: center; /* Center align text within the h1 element */
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px; /* Add margin between rows */
+        }
+
+        .card {
+            flex-basis: calc(18% - 20px); /* Adjust the width for 5 cards in a row */
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .big-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-style: italic;
+            color: darkgreen;
+        }
+
+        @media (max-width: 768px) {
+            /* Adjust card width for smaller screens */
+            .card {
+                flex-basis: calc(50% - 20px);
+            }
+
+            /* Center-align the text in cards on small screens */
+            .card {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Find your TA (Room Number & Calendar Link)</h1>
+        <h3>Click on a name to go to Calendly to pick a time with your TA</h3>
+        <!-- Your card rows here as before -->
+        <div class="row">
+            <div class="card">
+                <div class="big-name"><a href="#">Amira Tarek</a></div>
+                <div class="card-text">228</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Shahenda Hatem</a></div>
+                <div class="card-text">228</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Aly Mohamed</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Ahmad Ahmad</a></div>
+                <div class="card-text">228</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Youmna Eid</a></div>
+                <div class="card-text">228</div> <!-- New text element -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="big-name"><a href="#">Salma Khaled</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Khoulod Khaled</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="https://calendly.com/tyasser">Tawfik Yasser</a></div>
+                <div class="card-text">229</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">AlAmir Hassan</a></div>
+                <div class="card-text">228</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Monier Ashraf</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="big-name"><a href="#">Mostafa Fathy</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Ahmed Tamer</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Mohamed Salah</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Mohamed Ashraf</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Mina Atef</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="big-name"><a href="#">Lamiaa Omar</a></div>
+                <div class="card-text">229</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Hanya Mostafa</a></div>
+                <div class="card-text">229</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Salma Hegzay</a></div>
+                <div class="card-text">229</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Asmaa Ali</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Osamaa Adel</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="big-name"><a href="#">Sohaila Ahmed</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Rawan Osama</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Rahma Mohamed</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Mohamed Yousef</a></div>
+                <div class="card-text">219</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Aya Hassan</a></div>
+                <div class="card-text">218</div> <!-- New text element -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="big-name"><a href="#">Mohamed Ibrahim</a></div>
+                <div class="card-text">220</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Omnia Saeed</a></div>
+                <div class="card-text">218</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Menna Abdelsttar</a></div>
+                <div class="card-text">218</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Youssef Fadel</a></div>
+                <div class="card-text">218</div> <!-- New text element -->
+            </div>
+            <div class="card">
+                <div class="big-name"><a href="#">Manar Hesham</a></div>
+                <div class="card-text">218</div> <!-- New text element -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
